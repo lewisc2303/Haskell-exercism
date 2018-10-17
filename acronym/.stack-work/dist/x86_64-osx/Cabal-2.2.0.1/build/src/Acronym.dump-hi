@@ -1,10 +1,10 @@
 
 ==================== FINAL INTERFACE ====================
-2018-10-17 12:25:11.883223 UTC
+2018-10-17 14:04:51.198509 UTC
 
 interface acronym-1.4.0.6-B0wyB6eVF4u1cBcmq2SUvk:Acronym 8043
-  interface hash: 0209657c301e33f9990decaa97479b16
-  ABI hash: fd2f5b3b0dfd54c759ab53f9da9d8f9d
+  interface hash: ee545d478c1d5f1f1959afcda784f3ea
+  ABI hash: ddb142117350eade77794c16658f569b
   export-list hash: bb6298f3724f079c45ec6915646bf880
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: 8f52f5e5828eb5661f405d8d9ca450ec
@@ -52,16 +52,23 @@ a28b992ee2cdefb4d7873dba57ae9445
   $trModule4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
      Unfolding: ("acronym-1.4.0.6-B0wyB6eVF4u1cBcmq2SUvk"#) -}
-1af0a82030f73101d07899dea2579f15
+2fae3c4259216d3509525696590a4b04
   abbreviate :: GHC.Base.String -> GHC.Base.String
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: InlineRule (1, True, False)
                 (\ (word :: GHC.Base.String) ->
-                 Acronym.abbreviate_go word (GHC.Types.[] @ GHC.Types.Char)) -}
-75fc6f4f8621fd6f89decc3476a53add
+                 Acronym.abbreviate_go
+                   word
+                   (GHC.Types.[] @ GHC.Types.Char)
+                   Acronym.abbreviate1) -}
+7da897328f5ce744e83202c6a1506608
+  abbreviate1 :: GHC.Types.Char
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.C# ' '#) -}
+c3aa7ca2612b4b18fbae252610df97c8
   abbreviate_go ::
-    [GHC.Types.Char] -> [GHC.Types.Char] -> [GHC.Types.Char]
-  {- Arity: 2, Strictness: <S,U><L,U> -}
+    [GHC.Types.Char]
+    -> [GHC.Types.Char] -> GHC.Types.Char -> [GHC.Types.Char]
+  {- Arity: 3, Strictness: <S,U><L,U><L,1*U(U)> -}
 vectorised variables:
 vectorised tycons:
 vectorised reused tycons:

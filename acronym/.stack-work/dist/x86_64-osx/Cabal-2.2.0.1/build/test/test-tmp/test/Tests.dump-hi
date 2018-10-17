@@ -1,10 +1,10 @@
 
 ==================== FINAL INTERFACE ====================
-2018-10-17 12:16:07.125459 UTC
+2018-10-17 13:32:10.343531 UTC
 
 interface main:Main 8043
-  interface hash: 5bf3f5ad81c343ee31c2de7725fbe099
-  ABI hash: 2e92fc577cc7c556758055e89fe2533a
+  interface hash: aff32fce45de840ffc39677ffd7cebb6
+  ABI hash: 1f88665770fed3f02d5423a9bc0b52fd
   export-list hash: 983f3b54bb347a8382cdfd8972f2342d
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: b9c943b0fe1f62508a22d56d4ba2df3e
@@ -56,7 +56,7 @@ family instance modules: base-4.11.1.0:Control.Applicative
                          primitive-0.6.3.0:Control.Monad.Primitive
                          primitive-0.6.3.0:Data.Primitive.ByteArray
                          template-haskell-2.13.0.0:Language.Haskell.TH.Syntax
-import  -/  acronym-1.4.0.6:Acronym fd2f5b3b0dfd54c759ab53f9da9d8f9d
+import  -/  acronym-1.4.0.6:Acronym ddb142117350eade77794c16658f569b
 import  -/  base-4.11.1.0:Data.Foldable 8ed35c38958063956af33c935ea03444
 import  -/  base-4.11.1.0:GHC.Base 604111500e81281298777e721c75643b
 import  -/  base-4.11.1.0:Prelude 0750c25585e2b797cd78291d423d39dd
@@ -123,7 +123,7 @@ e5875966b74dad2d29772660b8a75e33
 d026be77cb9ced20e35a61514e0458aa
   $trModule4 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("main"#) -}
-fe195a1a45aa40d6fe9010e0ddc464c1
+7412b08d6d1ba7570e345fa405b78c3b
   $wc ::
     GHC.Base.String
     -> GHC.Base.String
@@ -247,12 +247,12 @@ f042888bcd6cb46ade388a0b8ea32a75
      Unfolding: InlineRule (1, True, False)
                 (\ (ds :: Main.Case) ->
                  case ds of wild { Main.Case ds1 ds2 ds3 -> ds2 }) -}
-6198d389a743f10ceec0124ab8d4a03b
+221b6490a78af82026adb155c8e4fc3e
   main :: GHC.Types.IO ()
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: InlineRule (0, True, True)
                 Main.main1 `cast` (Sym (GHC.Types.N:IO[0] <()>_R)) -}
-b609bccbb763a707ae37a5f1a707062d
+417a7de1eba7a8e61bce2ebd267bfc93
   main1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
@@ -316,7 +316,7 @@ b86d56d8ed7b8c38489bcf6db57a47e7
                    Test.Hspec.Expectations.shouldBe6
                    Test.Hspec.Expectations.shouldBe2
                    Main.main20) -}
-2f2b307704a5b1ab711e870fcefc2450
+0278dfbe57a6ef3071af5d321c13304d
   main2 :: Test.Hspec.Core.Spec.Monad.SpecWith ()
   {- Unfolding: (Main.main83
                    Main.main81
@@ -372,7 +372,7 @@ ff1757f204351cd1d30bcdb7a16160c2
 a2645253ef41f6e9a3b021c9a7e28182
   main29 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# Main.main30) -}
-ddaa719d49f57d4af2b7def53628a4d8
+b9162e20b806b1ff8da21905558f74fa
   main3 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld,
@@ -447,7 +447,7 @@ b718d7cfd8131fe9eb65018bf1dc340f
 3de9b6344ca590d6e11afe2fa400f350
   main39 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# Main.main40) -}
-21c08a13eb477e55322fbdeb1aba5859
+3bb81951bd50cea44354e43d0e553578
   main4 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld,
@@ -511,7 +511,7 @@ a46e27f9a26196b96b110cabba6b307c
 c276a0552c9b429535c823ed8e2946c1
   main49 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# Main.main50) -}
-b69dcb29d07136b0349a6e289ac88675
+af947447710a73452e7a22488eff1274
   main5 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld,
@@ -562,7 +562,7 @@ bb0a6195cc8f3edc7543698a8584910a
 224b4ad18ec8b0c363ae6d286114ecde
   main59 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# Main.main60) -}
-d33fb9d478884d2ff8fabbb37a938c35
+cab45019e55c843cd2128bd89f504012
   main6 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld,
@@ -613,7 +613,7 @@ e53f1223b9d55bd5ce5bd065e80424b1
 25d92d8a64e016a08fe284f8485a0771
   main69 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# Main.main70) -}
-8d852e948048eafd15871e56f6265686
+01cd8c85f8907b98350602aef2373533
   main7 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld,
@@ -664,7 +664,7 @@ d865330352f3da91eb3625843d379f83
 0e6b2a7ed5e873cc35c90a94ab7bc547
   main79 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# Main.main80) -}
-61610f35c8ec91eb8e5d6139db048bfe
+a4e99125c9a92b2a644048b208335df6
   main8 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld,
@@ -735,7 +735,7 @@ a2a1454c9e432ff073cc9f3ab8684fc6
 d82454f1a7888b97d1786c8f9ab1d95d
   main89 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# Main.main90) -}
-b13a487600fa3457fb059ae06ad5f705
+d1bbe7d3d40c31e800b2e1957fe4d4b9
   main9 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld,
@@ -782,7 +782,7 @@ b13a487600fa3457fb059ae06ad5f705
                    GHC.Types.False
                    Test.Hspec.Core.Config.Options.defaultConfig1
                    (GHC.Base.Nothing @ GHC.Types.Int)) -}
-885436051ffb6159fc41e397564dca50
+ae887758044d537dc8a91b6d3c740baf
   main92 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
